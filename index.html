@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--CSS Styles-->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!--Favicons-->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/icons/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/icons/favicon-32x32.png"
+        />
+
+        <!--Animate CSS CDN-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudfare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <title>Theo Demessance | Data Scientist</title>
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <nav>
+            <h1>Theo Demessance</h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!--Hero section-->
+        <section class="hero" id="about">
+            <img
+                src="assets/images/code.gif"
+                alt="theo-coding"
+                loading="lazy"
+                class="hero-gif"
+                style="width:100%;"
+            />
+            <div class="bio animate__animated animate__shakeX">
+                <h2 class="bio-title">About Me</h2>
+                <p class="bio-text">
+                    Hi there!
+                    <br>
+                    <br>
+                    I'm Théo, a Data Scientist working in an european retail firm's Data Laboratory. I studied at 
+                    <a href="https://www.esilv.fr/en/">ESILV</a> and at 
+                    <a href="http://www.tju.edu.cn/english/index.htm">Tianjin University</a>
+                    in a Software Engineering double-master degree partnership. 
+                    <br>
+                    <br>
+                    I truly believe that technology is transforming our lives and the world in which we live. 
+                    This is why I specialized in data sciences <span>📊</span>. I do have a passion for learning 
+                    and sharing my knowledge with others.
+                    <br>
+                    <br>
+                    Welcome to my online portfolio ! 
+                    <br>
+                    <br>
+                    <q>There is an easy way and a hard way. The hard part is finding the easy way. <span>🎯</span></q>
+                </p>
+            </div>
+        </section>
+
+        <!--More about-->
+        <section class="more-about">
+            <h2>More About Me</h2>
+            <p>
+                Former student at <a href="https://www.esilv.fr/en/">ESILV</a> and at 
+                <a href="http://www.tju.edu.cn/english/index.htm">Tianjin University</a>, My studies consisted of 
+                the first two theoretical years in mathematics, physics, computer science and foreign languages. 
+                Then I specialized in data science by studying statistics and advanced probability. At the same time, 
+                I applied what I had learned with small projects (which you can find on my GitHub).
+            </p>
+            <p>
+                During my studies, I had the opportunity to study in China, at Tianjin University as part of a double-master degree.
+                Due to COVID-19, my journey stopped earlier than planned, and I had to come back in January 2020. 
+                However, this experience has opened my eyes to the world around me and made me realize that one thing drives me: 
+                to discover the planet we live on.
+                Besides, I studied Mandarin, Chinese culture, and software engineering. 
+                I also did some research on tourism, which led me to publish my first scientific paper in an international conference.
+            </p>
+            <p>
+                Now, I am working in a retail company, as a Data Scientist. My goal is to deliver a cash-flow forecasting application
+                to the finance department. 
+            </p>
+        </section>
+
+        <!--Skills section-->
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img
+                        src="assets/icons/icons8-python.svg"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+
+                <div class="second-set animate__animated animate__pulse">
+                    <img 
+                        src="assets/icons/icons8-azur-48.png"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+
+                <div class="second-set animate__animated animate__pulse">
+                    <img 
+                        src="assets/icons/monitor.png"
+                        alt=""
+                        loading="lazy"
+                        class="icon icon-card"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!--Projects section-->
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Some of my Recent Projects</h2>
+            <div class="projects-container">
+                <div class="project-container project-card">
+                    <img 
+                        src="assets/images/hidden-markov-models.png"
+                        alt=""
+                        loading="lazy"
+                        class="project-pic"
+                    />
+                    <h3 class="project-title">Hidden Markov Models for Tourism Prediction</h3>
+                    <p class="project-details">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="assets\files\MDM21_Hidden_Markov_Model_for_Tourist_Recommendation.pdf" target="_blank" class="project-link">Access to Full Paper</a>
+                </div>
+                <!-- add other projects-->
+            </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact" id="contact">
+            <h2>Get In Touch With Me</h2>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <form 
+                        action="https://formspree.io/f/xoqrrgel" 
+                        method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="sender-name"
+                            placeholder="Enter your name"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Enter your email"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Enter your message"
+                            name="message"
+                            class="input-field"
+                            required
+                        ></textarea>
+                    </div>
+                    <input 
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                    />
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--Social accounts - Fixed to the right-->
+        <section class="socials">
+            <a href="https://www.linkedin.com/in/theo-demessance/" target="_blank"
+                ><img
+                    src="assets/icons/icons8-linkedin-entouré.gif"
+                    alt="LinkedIn"
+                    loading="lazy"
+                    class="socicon"
+            /></a>
+            <a href="http://instagram.com/theo_dme" target="_blank"
+                ><img
+                    src="assets/icons/icons8-instagram.gif"
+                    alt="Instagram"
+                    loading="lazy"
+                    class="socicon"
+            /></a>
+            <a href="https://twitter.com/tdemessance" target="_blank"
+                ><img
+                    src="assets/icons/icons8-twitter.gif"
+                    alt="Twitter"
+                    loading="lazy"
+                    class="socicon"
+            /></a>
+            <a href="https://github.com/TheoDemessance" target="_blank"
+                ><img
+                    src="assets/icons/icons8-github.gif"
+                    alt="Github"
+                    loading="lazy"
+                    class="socicon"
+            /></a>
+        </section>
+
+        <!--Scroll to top-->
+        <i class="scroll-up" id="scroll-up"
+        ><img
+            src="assets/icons/icons8-flèche-haut.gif"
+            class="socicon up-arrow"
+            alt=""
+        /></i>
+
+        <!--Footer section-->
+        <footer>
+            <p class="copy">&copy; Copyright 2021</p>
+            <p class="copy">Built by Theo Demessance</p>
+        </footer>
+
+        <!--Website scripts-->
+        <script src="assets/js/app.js"></script>
+
+        <!--Ion icon scripts-->
+        <script 
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
